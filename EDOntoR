@@ -4142,6 +4142,14 @@
     
 
 
+    <!-- http://edo.org#ThyroidEye -->
+
+    <owl:Class rdf:about="http://edo.org#ThyroidEye">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncit.owl#DiseaseOrDisorder"/>
+    </owl:Class>
+    
+
+
     <!-- http://edo.org#TimololMeleate -->
 
     <owl:Class rdf:about="http://edo.org#TimololMeleate">
@@ -4322,6 +4330,14 @@
 
     <owl:Class rdf:about="http://edo.org#ViralInfections">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncit.owl#Sign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edo.org#ViralKeratitis -->
+
+    <owl:Class rdf:about="http://edo.org#ViralKeratitis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncit.owl#DiseaseOrDisorder"/>
     </owl:Class>
     
 
@@ -4675,7 +4691,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ncit.owl#Sign">
         <rdfs:subClassOf rdf:resource="http://schema.org/MedicalSign"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objective evidence of disease perceptible to the examining healthcare provider.</rdfs:comment>
+        <rdfs:comment>Objective evidence of disease perceptible to the examining healthcare provider.</rdfs:comment>
     </owl:Class>
     
 
@@ -4692,7 +4708,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/scdo.owl#DiagnosticDevice">
         <rdfs:subClassOf rdf:resource="http://schema.org/MedicalDevice"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medical device used for diagnostic purposes.</rdfs:comment>
+        <rdfs:comment>A medical device used for diagnostic purposes.</rdfs:comment>
     </owl:Class>
     
 
@@ -4701,7 +4717,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/scdo.owl#TherapeuticDevice">
         <rdfs:subClassOf rdf:resource="http://schema.org/MedicalDevice"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medical device used for therapeutic purposes.</rdfs:comment>
+        <rdfs:comment>A medical device used for therapeutic purposes.</rdfs:comment>
     </owl:Class>
     
 
